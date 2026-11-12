@@ -32,6 +32,11 @@
                                 Kategori
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link {{ request()->routeIs('items.*') ? 'active fw-semibold' : '' }}" href="{{ route('items.index') }}">
+                                Barang
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
